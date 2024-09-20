@@ -1,0 +1,70 @@
+# Node modules
+/node_modules
+**/node_modules
+
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+lerna-debug.log*
+
+# Diretórios de build
+dist/
+build/
+
+# Diretórios de cache
+.cache/
+.next/
+.nuxt/
+.svelte-kit/
+coverage/
+
+# Ambiente de desenvolvimento local
+.env
+.env.local
+.env.*.local
+
+# Sistema operacional
+.DS_Store
+Thumbs.db
+
+# Editor e IDE
+.idea/
+.vscode/
+*.swp
+
+# TypeScript
+*.tsbuildinfo
+
+# Teste e cobertura de código
+coverage/
+jest-cache/
+jest-output/
+.pnp.*
+.pnp.js
+
+# Output do npm
+npm-debug.log*
+
+# Arquivos de lock (opcional, se não quiser versionar)
+package-lock.json
+yarn.lock
+pnpm-lock.yaml
+
+# Parcel cache
+.cache/
+
+# Integrações
+.next/
+out/
+
+# Outras pastas de build
+/build/
+dist/
+lib/
+
+# Arquivos específicos do frontend (React, etc.)
+.eslintcache
+.cache/
